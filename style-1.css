@@ -1,0 +1,110 @@
+.banner {
+    background: url("https://www.elitejewelers.com/cdn/shop/files/ee.jpg?v=1688017358&width=2400")
+    no-repeat center center;
+    border-image: fill 0 linear-gradient(rgba(201, 171, 171, 0.067), #1e1e1e);
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #ffffff;
+    font-family: olivera;
+  }
+
+  .dropbtn {
+    background-color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 7px;
+    -webkit-text-stroke-width: 0.2px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  @font-face {
+    font-family: olivera;
+    src: "https://www.1001fonts.com/oliver-font.html";
+  }
+
+  .cards1{
+    border-radius: 8px;
+    background-color: white;
+    transition: transform .2s;
+    object-fit: cover;
+  }
+
+  .cards1:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+
+  .cards2{
+    border-radius: 8px;
+    background-color: white;
+    transition: transform .2s;
+    object-fit: cover;
+  }
+
+  .cards2:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+
+  .cards3{
+    border-radius: 8px;
+    background-color: white;
+    transition: transform .2s;
+    object-fit: cover;
+  }
+
+  .cards3:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+
+  .cards4{
+    border-radius: 8px;
+    background-color: white;
+    transition: transform .2s;
+    object-fit: cover;
+  }
+
+  .cards4:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+  
+
+  .clearfix{
+    overflow: auto
+  }
